@@ -1,10 +1,12 @@
 import Home from "./pages/Home/Home";
+import Profile from "./pages/Profile/Profile";
 import {Person} from "@material-ui/icons";
 
-function App() {
-  return (
-    <Home />  
-  );
+const App = () => {
+    return (
+        <Profile />
+        
+    );
 }
 
 export default App;
